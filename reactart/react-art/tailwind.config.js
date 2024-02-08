@@ -5,7 +5,12 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      // to add extra fonts from google fonts.
+      fontFamily:{
+        title: ['"Pacifico"', 'cursive']
+      }
+    },
   },
   plugins: [],
 }
